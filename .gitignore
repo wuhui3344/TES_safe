@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller 构建产物
+build/
+dist-onefile/
+dist-onedir/
+*.spec
+
+# 本地临时文件
+*.log
+shot.png
+
+# 已废弃：第一版生成器脚本（把代码写到 Linux 路径 /mnt/data/…，Windows 上无法运行），
+# 功能已由 tes_qt_app.py + tes_core/ 取代，故有意不纳入版本管理。
+tool.py
